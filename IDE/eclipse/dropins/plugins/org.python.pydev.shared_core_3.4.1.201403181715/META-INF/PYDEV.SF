@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: wmxcxfELfVGw+HF4I7vFN+8THvdon
+ cNyzxsf9i+hycc=
+SHA-256-Digest-Manifest: oMd+nXwH87V/N21MFDTWNk75ObLdc8L1QkqEaTBiarw=
+Created-By: 1.7.0_45 (Oracle Corporation)
+
+Name: shared_core.jar
+SHA-256-Digest: 6IJr12srAo9GGGkLmMqEeIz26tpncUFEn3kqOMKfpLA=
+
+Name: LICENSE.txt
+SHA-256-Digest: kKR//0aU3zBgl9SCeCpwoQ+GrOEHBzEb90XcPTX/6Do=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .properties
+SHA-256-Digest: Zu+AMevFDexKLu8yzmos6CJD1QYMilLic5ptw5f2IRE=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .xml
+SHA-256-Digest: edoG/QZta1DFTkFdOVrXALeq1MeAw1NhSvRmQi2WkUc=
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="it.unibz.instasearch.feature.indigo"
+      label="InstaSearch"
+      version="1.5.6"
+      provider-name="Andrejs Jermakovics"
+      plugin="it.unibz.instasearch">
+
+   <description url="https://github.com/ajermakovics/eclipse-instasearch">
+      Eclipse plug-in for doing quick search in workspace files using
+a search engine. Shows search results instantly as you type.
+https://github.com/ajermakovics/eclipse-instasearch
+   </description>
+
+   <copyright>
+      Copyright (C) 2014 Andrejs Jermakovics
+   </copyright>
+
+   <license url="http://www.eclipse.org/org/documents/epl-v10.html">
+      This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+
+http://www.eclipse.org/org/documents/epl-v10.html
+   </license>
+
+   <url>
+      <update label="InstaSearch" url="http://dl.bintray.com/ajermakovics/InstaSearch/"/>
+      <discovery label="InstaSearch site" url="https://github.com/ajermakovics/eclipse-instasearch"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.lucene" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.analysis" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.commons.httpclient"/>
+      <import plugin="org.apache.commons.lang"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.core.net"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.search"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.apache.lucene.highlighter" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.memory" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.misc" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.queries" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.snowball" version="2.9.1" match="equivalent"/>
+      <import plugin="org.apache.lucene.spellchecker" version="2.9.1" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="it.unibz.instasearch"
+         download-size="0"
+         install-size="0"
+         version="1.5.6"
+         unpack="false"/>
+
+   <data
+         id="epl-v10.html"
+         download-size="0"
+         install-size="0"/>
+
+</feature>

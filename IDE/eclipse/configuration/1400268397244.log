@@ -1,0 +1,268 @@
+!SESSION 2014-05-17 03:26:37.098 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.618
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.autotools.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.619
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.autotools_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.619
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.build.crossgcc_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.619
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.bupc_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.620
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.lrparser.feature_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.620
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.lrparser.sdk_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.620
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.lrparser.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.620
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.parser.upc.feature_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.620
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.parser.upc.sdk_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.621
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.core.parser.upc.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.621
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.debug.gdbjtag_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.621
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.debug.ui.memory.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.621
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.debug.ui.memory_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.622
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.examples.dsf_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.622
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gdb.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.622
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gdb_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.622
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.build.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.623
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.build_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.623
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.debug.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.623
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.debug_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.623
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.dsf.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.624
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.dsf_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.624
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.gnu.multicorevisualizer_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.624
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.launch.remote_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.624
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.managedbuilder.llvm_1.0.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.624
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.msw_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.625
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.platform.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.625
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.platform_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.625
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.qt_1.1.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.625
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.sdk_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.626
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.testsrunner.feature_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.626
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.testsrunner.source.feature_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.626
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.util_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.626
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.visualizer_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.626
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.xlc.feature_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.627
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.xlc.sdk_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.627
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt.xlc.source_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-05-17 03:26:37.627
+!MESSAGE Unable to find feature.xml in directory: D:\DEV\eclipse\dropins\features\org.eclipse.cdt_8.3.0.201402142303.jar
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-05-17 03:26:38.344
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/D:/DEV/eclipse/dropins/artifacts.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:99)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-05-17 03:26:38.345
+!MESSAGE No repository found at jar:file:/D:/DEV/eclipse/dropins/artifacts.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-05-17 03:26:38.413
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/DEV/eclipse/dropins/binary/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:99)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-05-17 03:26:38.414
+!MESSAGE No repository found at file:/D:/DEV/eclipse/dropins/binary/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-05-17 03:26:38.422
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/DEV/eclipse/dropins/binary/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2014-05-17 03:26:38.422
+!MESSAGE No repository found at file:/D:/DEV/eclipse/dropins/binary/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-05-17 03:26:38.661
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/D:/DEV/eclipse/dropins/content.jar!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2014-05-17 03:26:38.661
+!MESSAGE No repository found at jar:file:/D:/DEV/eclipse/dropins/content.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2014-05-17 03:26:40.746
+!MESSAGE An error occurred while installing the items
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2014-05-17 03:26:40.746
+!MESSAGE session context was:(profile=epp.package.standard, phase=org.eclipse.equinox.internal.p2.engine.phases.Install, operand=null --> [R]org.eclipse.cdt.autotools.feature.jar 8.3.0.201402142303, action=org.eclipse.equinox.internal.p2.touchpoint.eclipse.actions.InstallFeatureAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.eclipse 4 0 2014-05-17 03:26:40.746
+!MESSAGE The artifact file for org.eclipse.update.feature,org.eclipse.cdt.autotools,8.3.0.201402142303 was not found.

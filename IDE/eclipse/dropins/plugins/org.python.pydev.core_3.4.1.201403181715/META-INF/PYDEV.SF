@@ -1,0 +1,22 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: JFNjBUBQczV9y/e3dgzioExYqVM0V
+ SMnMwdBvT3MFAU=
+SHA-256-Digest-Manifest: lzgd4ZxD5UC0gFHOIFYCr2nkzJl0EVPoaQY6Rd7KRaE=
+Created-By: 1.7.0_45 (Oracle Corporation)
+
+Name: LICENSE.txt
+SHA-256-Digest: kKR//0aU3zBgl9SCeCpwoQ+GrOEHBzEb90XcPTX/6Do=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.core/pom.proper
+ ties
+SHA-256-Digest: ub5BUNu9+FVtqNnIMUnMe5mZVVkH2VZE4E33xc817sE=
+
+Name: core.jar
+SHA-256-Digest: zmNJxTbrBiwWgiUaDXmNFWo572zEvh6xZcmqQbNRfU4=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.core/pom.xml
+SHA-256-Digest: IPnWgfXtejPc06aBFPso7Lc1LefkQgDHSYnsSvrRM28=
+
+Name: icons/python_logging.png
+SHA-256-Digest: /V/cr1IMLSyHgSJBAmQFPDAYt2E0ATXFNbz6/HvSb+0=
+

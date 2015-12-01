@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.nodeclipse.pluginslist.feature"
+      label="Nodeclipse Plugins List"
+      version="1.0.2.201509250223"
+      provider-name="Nodeclipse organization">
+
+   <description url="http://www.nodeclipse.org/">
+      Nodeclipse Plugins List is convenient way to install Eclipse plugins.
+See https://github.com/nodeclipse/nodeclipse-1/
+   </description>
+
+   <copyright url="http://www.nodeclipse.org/">
+      Copyright (c) 2014, 2015 Paul Verest, All rights reserved.
+   </copyright>
+
+   <license url="http://choosealicense.com/licenses/mit/">
+      Copyright (c) 2014, 2015 Paul Verest, All rights reserved.
+   </license>
+
+   <plugin
+         id="org.nodeclipse.pluginslist.core"
+         download-size="5"
+         install-size="7"
+         version="1.0.2.201509250223"
+         unpack="false"/>
+
+</feature>

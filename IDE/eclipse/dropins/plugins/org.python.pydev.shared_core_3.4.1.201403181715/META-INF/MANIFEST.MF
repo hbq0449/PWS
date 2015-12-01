@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: org.python.pydev.shared_core,org.python.pydev.shared_c
+ ore.actions,org.python.pydev.shared_core.auto_edit,org.python.pydev.s
+ hared_core.cache,org.python.pydev.shared_core.callbacks,org.python.py
+ dev.shared_core.editor,org.python.pydev.shared_core.io,org.python.pyd
+ ev.shared_core.log,org.python.pydev.shared_core.model,org.python.pyde
+ v.shared_core.net,org.python.pydev.shared_core.out_of_memory,org.pyth
+ on.pydev.shared_core.parsing,org.python.pydev.shared_core.partitioner
+ ,org.python.pydev.shared_core.path_watch,org.python.pydev.shared_core
+ .process,org.python.pydev.shared_core.string,org.python.pydev.shared_
+ core.structure,org.python.pydev.shared_core.testutils,org.python.pyde
+ v.shared_core.utils
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: shared_core.jar
+Built-By: Fabio
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+Bundle-Name: Shared Core Plug-in
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.jface.text,org.ju
+ nit;bundle-version="4.0";resolution:=optional,org.eclipse.jface,org.e
+ clipse.core.resources
+Bundle-Vendor: Appcelerator
+Bundle-Version: 3.4.1.201403181715
+Build-Jdk: 1.7.0_45
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.shared_core.SharedCorePlugin
+Bundle-SymbolicName: org.python.pydev.shared_core;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: shared_core.jar
+SHA-256-Digest: CBcjW4wyPrSRXi8RMH38k6uPa2DeRprd6UIc6ptL+08=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .properties
+SHA-256-Digest: kfxkZMyN364svF5oFnBW6sbGp/5Dng4rUc3wVT29wDQ=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .xml
+SHA-256-Digest: 9R7T5eMQbw/rnGTMamDDeZJy7whaUC5Kmfovp0nPRjI=
+

@@ -1,0 +1,1627 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='org.eclipse.cdt.repo' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1392422194797'/>
+    <property name='p2.compressed' value='true'/>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='169'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='65612'/>
+        <property name='download.size' value='65612'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.ui'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.msw.build' version='1.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='18612'/>
+        <property name='download.size' value='18612'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.msw.build'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='65722'/>
+        <property name='download.size' value='65722'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.core.cxx'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb' version='4.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1561346'/>
+        <property name='download.size' value='1561346'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.gdb'/>
+        <property name='maven-version' value='4.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlc.core.source' version='5.0.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='10100'/>
+        <property name='download.size' value='10100'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlc.core'/>
+        <property name='maven-version' value='5.0.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.core' version='1.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='119669'/>
+        <property name='download.size' value='119669'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.core'/>
+        <property name='maven-version' value='1.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.ui.memory' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33012'/>
+        <property name='download.size' value='33012'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.lrparser.xlc.source' version='5.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='116844'/>
+        <property name='download.size' value='116844'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser.xlc'/>
+        <property name='maven-version' value='5.1.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui.source' version='2.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='662715'/>
+        <property name='download.size' value='662715'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.ui'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch' version='7.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='233140'/>
+        <property name='download.size' value='233140'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.launch'/>
+        <property name='maven-version' value='7.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33398'/>
+        <property name='download.size' value='33398'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.platform'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.traditional.source' version='1.2.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='63107'/>
+        <property name='download.size' value='63107'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.traditional'/>
+        <property name='maven-version' value='1.2.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32' version='5.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='12251'/>
+        <property name='download.size' value='12251'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.win32'/>
+        <property name='maven-version' value='5.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.lrparser.sdk' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32963'/>
+        <property name='download.size' value='32963'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui.source' version='5.7.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='3094365'/>
+        <property name='download.size' value='3094365'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.ui'/>
+        <property name='maven-version' value='5.7.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.build.crossgcc' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32965'/>
+        <property name='download.size' value='32965'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.build.crossgcc'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cdt_root' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='root'/>
+        <property name='maven-extension' value='zip'/>
+        <property name='download.size' value='8076'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui.source' version='8.2.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='230217'/>
+        <property name='download.size' value='230217'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.ui'/>
+        <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.visualizer.ui' version='1.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='74607'/>
+        <property name='download.size' value='74607'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.visualizer.ui'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.solaris' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='23463'/>
+        <property name='download.size' value='23463'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.solaris'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.lrparser.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32989'/>
+        <property name='download.size' value='32989'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.ui' version='1.0.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='812352'/>
+        <property name='download.size' value='812352'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.ui'/>
+        <property name='maven-version' value='1.0.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.xlc.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33005'/>
+        <property name='download.size' value='33005'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.xlc.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32902'/>
+        <property name='download.size' value='32902'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.feature'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.dsf'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.autotools.core' version='2.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='10538'/>
+        <property name='download.size' value='10538'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.linuxtools.cdt.autotools.core'/>
+        <property name='maven-version' value='2.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='87041'/>
+        <property name='download.size' value='87041'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.checkers'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32829'/>
+        <property name='download.size' value='32829'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.solaris.source' version='5.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='25957'/>
+        <property name='download.size' value='25957'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.solaris'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.qttest' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='19427'/>
+        <property name='download.size' value='19427'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.qttest'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.lrparser.xlc' version='5.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='274998'/>
+        <property name='download.size' value='274998'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser.xlc'/>
+        <property name='maven-version' value='5.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.examples.dsf' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32993'/>
+        <property name='download.size' value='32993'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.examples.dsf'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlupc.ui.source' version='1.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='13817'/>
+        <property name='download.size' value='13817'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlupc.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.errorparsers.xlc.source' version='5.0.100.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='8471'/>
+        <property name='download.size' value='8471'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.errorparsers.xlc'/>
+        <property name='maven-version' value='5.0.100-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.isv' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='5309023'/>
+        <property name='download.size' value='5309023'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.doc.isv'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core' version='5.6.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='5215639'/>
+        <property name='download.size' value='5215639'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core'/>
+        <property name='maven-version' value='5.6.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='324115'/>
+        <property name='download.size' value='324115'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='117652'/>
+        <property name='download.size' value='117652'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.boost' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='17719'/>
+        <property name='download.size' value='17719'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.boost'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.floatingpoint.source' version='1.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='69034'/>
+        <property name='download.size' value='69034'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.floatingpoint'/>
+        <property name='maven-version' value='1.0.0.qualifier'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.ui' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='32334'/>
+        <property name='download.size' value='32334'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.checkers.ui'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.memorybrowser' version='1.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='64287'/>
+        <property name='download.size' value='64287'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.memorybrowser'/>
+        <property name='maven-version' value='1.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.util' version='5.0.100.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='25286'/>
+        <property name='download.size' value='25286'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.util'/>
+        <property name='maven-version' value='5.0.100-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='955650'/>
+        <property name='download.size' value='955650'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.core'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.launch.remote' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32909'/>
+        <property name='download.size' value='32909'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.launch.remote'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='16687'/>
+        <property name='download.size' value='16687'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.parser.upc.source' version='5.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='129640'/>
+        <property name='download.size' value='129640'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.parser.upc'/>
+        <property name='maven-version' value='5.1.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlc.ui.source' version='6.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32453'/>
+        <property name='download.size' value='32453'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlc.ui'/>
+        <property name='maven-version' value='6.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.source' version='2.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='199475'/>
+        <property name='download.size' value='199475'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33026'/>
+        <property name='download.size' value='33026'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.debug.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='195839'/>
+        <property name='download.size' value='195839'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.qt' version='1.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32846'/>
+        <property name='download.size' value='32846'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.qt'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32814'/>
+        <property name='download.size' value='32814'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.core' version='7.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='563115'/>
+        <property name='download.size' value='563115'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.mi.core'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='123095'/>
+        <property name='download.size' value='123095'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.ui'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='51046'/>
+        <property name='download.size' value='51046'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.checkers'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.search.source' version='1.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='27460'/>
+        <property name='download.size' value='27460'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.search'/>
+        <property name='maven-version' value='1.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.managedbuilder.llvm' version='1.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33029'/>
+        <property name='download.size' value='33029'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.llvm'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt' version='8.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='79920'/>
+        <property name='download.size' value='79920'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='7.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1169313'/>
+        <property name='download.size' value='1169313'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.ui' version='6.1.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='154913'/>
+        <property name='download.size' value='154913'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.mi.ui'/>
+        <property name='maven-version' value='6.1.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.cxx' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='26202'/>
+        <property name='download.size' value='26202'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.ui.cxx'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.examples.dsf.pda.ui' version='2.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='62074'/>
+        <property name='download.size' value='62074'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.examples.dsf.pda.ui'/>
+        <property name='maven-version' value='2.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.build.crossgcc' version='1.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='30756'/>
+        <property name='download.size' value='30756'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.build.crossgcc'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.examples.dsf.pda' version='2.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='253217'/>
+        <property name='download.size' value='253217'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.examples.dsf.pda'/>
+        <property name='maven-version' value='2.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='132583'/>
+        <property name='download.size' value='132583'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.core'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.user' version='5.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='18803888'/>
+        <property name='download.size' value='18803888'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.doc.user'/>
+        <property name='maven-version' value='5.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cdt.xlc.sdk_root' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.xlc.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='root'/>
+        <property name='maven-extension' value='zip'/>
+        <property name='download.size' value='8076'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.ui.source' version='1.0.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='475805'/>
+        <property name='download.size' value='475805'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.ui'/>
+        <property name='maven-version' value='1.0.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33320'/>
+        <property name='download.size' value='33320'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.platform.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.autotools.core.source' version='2.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='8296'/>
+        <property name='download.size' value='8296'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.linuxtools.cdt.autotools.core'/>
+        <property name='maven-version' value='2.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.macosx' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='35462'/>
+        <property name='download.size' value='35462'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.macosx'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.ui.source' version='6.1.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='88167'/>
+        <property name='download.size' value='88167'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.mi.ui'/>
+        <property name='maven-version' value='6.1.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.ui' version='2.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='641027'/>
+        <property name='download.size' value='641027'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.gdb.ui'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.source' version='5.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='59306'/>
+        <property name='download.size' value='59306'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.win32'/>
+        <property name='maven-version' value='5.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.core.source' version='7.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='461195'/>
+        <property name='download.size' value='461195'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.mi.core'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.bupc' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32866'/>
+        <property name='download.size' value='32866'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.bupc'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.errorparsers.xlc' version='5.0.100.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='11721'/>
+        <property name='download.size' value='11721'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.errorparsers.xlc'/>
+        <property name='maven-version' value='5.0.100-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.autotools.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32793'/>
+        <property name='download.size' value='32793'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.source' version='5.6.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='3825126'/>
+        <property name='download.size' value='3825126'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core'/>
+        <property name='maven-version' value='5.6.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.visualizer.core' version='1.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='16641'/>
+        <property name='download.size' value='16641'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.visualizer.core'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.ui.memory.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33104'/>
+        <property name='download.size' value='33104'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.lrparser.source' version='5.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='564696'/>
+        <property name='download.size' value='564696'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32981'/>
+        <property name='download.size' value='32981'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.build.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.autotools' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='20487'/>
+        <property name='download.size' value='20487'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core' version='7.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='552289'/>
+        <property name='download.size' value='552289'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.core'/>
+        <property name='maven-version' value='7.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.remote' version='2.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='88145'/>
+        <property name='download.size' value='88145'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.launch.remote'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlupc.ui' version='1.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='20635'/>
+        <property name='download.size' value='20635'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlupc.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.gnu.ui.source' version='8.2.1.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='22286'/>
+        <property name='download.size' value='22286'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.gnu.ui'/>
+        <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.source' version='4.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='778026'/>
+        <property name='download.size' value='778026'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.gdb'/>
+        <property name='maven-version' value='4.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.ppc64' version='5.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='21523'/>
+        <property name='download.size' value='21523'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.linux.ppc64'/>
+        <property name='maven-version' value='5.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.xlc.sdk' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32872'/>
+        <property name='download.size' value='32872'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.xlc.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.traditional' version='1.2.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='144847'/>
+        <property name='download.size' value='144847'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.traditional'/>
+        <property name='maven-version' value='1.2.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.parser.upc' version='5.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='293374'/>
+        <property name='download.size' value='293374'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.parser.upc'/>
+        <property name='maven-version' value='5.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.qt.ui' version='1.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='47987'/>
+        <property name='download.size' value='47987'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.qt.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.msw' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32864'/>
+        <property name='download.size' value='32864'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.msw'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.lpg.lpgjavaruntime' version='1.1.0.v201004271650'>
+      <properties size='1'>
+        <property name='download.size' value='91676'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.source' version='7.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='119135'/>
+        <property name='download.size' value='119135'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.launch'/>
+        <property name='maven-version' value='7.1.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core' version='3.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='140829'/>
+        <property name='download.size' value='140829'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.core'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32943'/>
+        <property name='download.size' value='32943'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.feature'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.debug'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.llvm.ui' version='1.1.7.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='67188'/>
+        <property name='download.size' value='67188'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.llvm.ui'/>
+        <property name='maven-version' value='1.1.7-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.qt.core' version='1.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='205084'/>
+        <property name='download.size' value='205084'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.qt.core'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32895'/>
+        <property name='download.size' value='32895'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32986'/>
+        <property name='download.size' value='32986'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.dsf.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='7.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='486979'/>
+        <property name='download.size' value='486979'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.ui'/>
+        <property name='maven-version' value='7.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.search' version='1.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='62047'/>
+        <property name='download.size' value='62047'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.search'/>
+        <property name='maven-version' value='1.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.aix' version='5.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='24911'/>
+        <property name='download.size' value='24911'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.aix'/>
+        <property name='maven-version' value='5.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.gdbjtag' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32991'/>
+        <property name='download.size' value='32991'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.gdbjtag'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32905'/>
+        <property name='download.size' value='32905'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.build'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.parser.upc.source' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33019'/>
+        <property name='download.size' value='33019'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.parser.upc.source'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.qttest.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='16244'/>
+        <property name='download.size' value='16244'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.qttest'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag.ui' version='7.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='79463'/>
+        <property name='download.size' value='79463'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.gdbjtag.ui'/>
+        <property name='maven-version' value='7.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.cxx.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='19316'/>
+        <property name='download.size' value='19316'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.ui.cxx'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.sdk' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32919'/>
+        <property name='download.size' value='32919'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.lrparser' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1416875'/>
+        <property name='download.size' value='1416875'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.ui' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='10632'/>
+        <property name='download.size' value='10632'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb.ui'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.floatingpoint' version='1.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='141966'/>
+        <property name='download.size' value='141966'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.floatingpoint'/>
+        <property name='maven-version' value='1.0.0.qualifier'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.remote.source' version='2.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='43159'/>
+        <property name='download.size' value='43159'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.launch.remote'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.xlc.core.source' version='5.2.100.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='42423'/>
+        <property name='download.size' value='42423'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.xlc.core'/>
+        <property name='maven-version' value='5.2.100-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.source' version='5.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='26479'/>
+        <property name='download.size' value='26479'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.linux'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.lrparser.feature' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32950'/>
+        <property name='download.size' value='32950'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.lrparser.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.x86_64' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='366442'/>
+        <property name='download.size' value='366442'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.win32.x86_64'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlc.core' version='5.0.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='17775'/>
+        <property name='download.size' value='17775'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlc.core'/>
+        <property name='maven-version' value='5.0.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag.core' version='8.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='51463'/>
+        <property name='download.size' value='51463'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.gdbjtag.core'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.visualizer' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='37590'/>
+        <property name='download.size' value='37590'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.visualizer'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.xlc.core' version='5.2.100.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='66987'/>
+        <property name='download.size' value='66987'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.xlc.core'/>
+        <property name='maven-version' value='5.2.100-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.transport.source' version='2.1.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='46295'/>
+        <property name='download.size' value='46295'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.transport'/>
+        <property name='maven-version' value='2.1.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.bupc.ui' version='1.0.3.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='21287'/>
+        <property name='download.size' value='21287'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.bupc.ui'/>
+        <property name='maven-version' value='1.0.3-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui' version='5.7.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='5908318'/>
+        <property name='download.size' value='5908318'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.ui'/>
+        <property name='maven-version' value='5.7.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlc.ui' version='6.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='64588'/>
+        <property name='download.size' value='64588'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.xlc.ui'/>
+        <property name='maven-version' value='6.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.core.source' version='1.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='81209'/>
+        <property name='download.size' value='81209'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.core'/>
+        <property name='maven-version' value='1.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.docs' version='2.0.2.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1929170'/>
+        <property name='download.size' value='1929170'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.autotools.docs'/>
+        <property name='maven-version' value='2.0.2-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.util' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32865'/>
+        <property name='download.size' value='32865'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.util'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core.source' version='7.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='304270'/>
+        <property name='download.size' value='304270'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.core'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='12698'/>
+        <property name='download.size' value='12698'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.linux'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.gnu.ui' version='8.2.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='49683'/>
+        <property name='download.size' value='49683'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.gnu.ui'/>
+        <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.examples.dsf' version='2.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='122212'/>
+        <property name='download.size' value='122212'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.examples.dsf'/>
+        <property name='maven-version' value='2.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core' version='8.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1323577'/>
+        <property name='download.size' value='1323577'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.core'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.x86' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='263951'/>
+        <property name='download.size' value='263951'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.win32.x86'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.xlc.feature' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32935'/>
+        <property name='download.size' value='32935'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.xlc.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.multicorevisualizer' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32927'/>
+        <property name='download.size' value='32927'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gnu.multicorevisualizer'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.sdk' version='8.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='22091'/>
+        <property name='download.size' value='22091'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.ui.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='25343'/>
+        <property name='download.size' value='25343'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.checkers.ui'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cdt.xlc.feature_root' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.xlc.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='root'/>
+        <property name='maven-extension' value='zip'/>
+        <property name='download.size' value='8076'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui' version='1.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='118052'/>
+        <property name='download.size' value='118052'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.gdb.multicorevisualizer.ui'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui.source' version='7.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='250767'/>
+        <property name='download.size' value='250767'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.ui'/>
+        <property name='maven-version' value='7.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core.source' version='7.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='503306'/>
+        <property name='download.size' value='503306'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.core'/>
+        <property name='maven-version' value='7.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.source' version='7.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='633847'/>
+        <property name='download.size' value='633847'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.macosx.source' version='5.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='27094'/>
+        <property name='download.size' value='27094'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.macosx'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='10981'/>
+        <property name='download.size' value='10981'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui' version='2.4.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='1365219'/>
+        <property name='download.size' value='1365219'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.ui'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.aix.source' version='5.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='25828'/>
+        <property name='download.size' value='25828'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.aix'/>
+        <property name='maven-version' value='5.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.ui.source' version='2.4.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='260842'/>
+        <property name='download.size' value='260842'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.dsf.gdb.ui'/>
+        <property name='maven-version' value='2.4.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.ui.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='8561'/>
+        <property name='download.size' value='8561'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.gdb.ui'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx.source' version='3.2.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='52350'/>
+        <property name='download.size' value='52350'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.codan.core.cxx'/>
+        <property name='maven-version' value='3.2.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.gtest' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='28729'/>
+        <property name='download.size' value='28729'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.gtest'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.transport' version='2.1.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='118191'/>
+        <property name='download.size' value='118191'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.transport'/>
+        <property name='maven-version' value='2.1.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='8.2.1.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='490214'/>
+        <property name='download.size' value='490214'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.managedbuilder.ui'/>
+        <property name='maven-version' value='8.2.1-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cdt.util_root' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.util'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='root'/>
+        <property name='maven-extension' value='zip'/>
+        <property name='download.size' value='8076'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.parser.upc.sdk' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32996'/>
+        <property name='download.size' value='32996'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.parser.upc.sdk'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.boost.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='14994'/>
+        <property name='download.size' value='14994'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.boost'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.gdbjtag' version='7.0.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='13131'/>
+        <property name='download.size' value='13131'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.gdbjtag'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.3.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='441936'/>
+        <property name='download.size' value='441936'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.make.core'/>
+        <property name='maven-version' value='7.3.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.core.parser.upc.feature' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='32941'/>
+        <property name='download.size' value='32941'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.parser.upc.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.testsrunner.feature' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33006'/>
+        <property name='download.size' value='33006'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.testsrunner.source.feature' version='8.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='33074'/>
+        <property name='download.size' value='33074'/>
+        <property name='maven-groupId' value='org.eclipse.cdt.features'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.source.feature'/>
+        <property name='maven-version' value='8.3.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.testsrunner.gtest.source' version='7.0.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='17834'/>
+        <property name='download.size' value='17834'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.testsrunner.gtest'/>
+        <property name='maven-version' value='7.0.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.memorybrowser.source' version='1.3.0.201402142303'>
+      <properties size='6'>
+        <property name='artifact.size' value='31344'/>
+        <property name='download.size' value='31344'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.debug.ui.memory.memorybrowser'/>
+        <property name='maven-version' value='1.3.0-SNAPSHOT'/>
+        <property name='maven-classifier' value='sources'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='18350'/>
+        <property name='download.size' value='18350'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.linux.x86'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86_64' version='5.2.0.201402142303'>
+      <properties size='5'>
+        <property name='artifact.size' value='19675'/>
+        <property name='download.size' value='19675'/>
+        <property name='maven-groupId' value='org.eclipse.cdt'/>
+        <property name='maven-artifactId' value='org.eclipse.cdt.core.linux.x86_64'/>
+        <property name='maven-version' value='5.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

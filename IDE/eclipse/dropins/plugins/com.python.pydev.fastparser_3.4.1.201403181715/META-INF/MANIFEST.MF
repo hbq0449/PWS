@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.python.pydev.fastparser
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: fastparser.jar
+Built-By: Fabio
+Eclipse-BundleShape: dir
+Bundle-Name: Fastparser Plug-in
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev.parser,org.eclipse.jface.text,org.python.pydev.core,org.python.pyd
+ ev;bundle-version="2.7.6",com.python.pydev
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_45
+Bundle-Version: 3.4.1.201403181715
+Bundle-Activator: com.python.pydev.fastparser.FastparserPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.python.pydev.fastparser; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.TXT
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: fastparser.jar
+SHA-256-Digest: /1GQdvMw7elOal+n0W+1ubXXUgHRIxFQjk4/vT0YQh4=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.fastparser/pom.
+ xml
+SHA-256-Digest: wWLF4vK2Dc2dMdyi9XpsRrRUe4bula7g2YZ4mVU6JkU=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.fastparser/pom.
+ properties
+SHA-256-Digest: TAEcl1m/f+6dvtr9plafB4+7YK20ric3XXHivAzTRtI=
+

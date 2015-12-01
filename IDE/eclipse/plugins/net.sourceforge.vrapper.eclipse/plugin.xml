@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="net.sourceforge.vrapper.eclipse.pssp" name="Platform Specific State Provider" schema="schema/net.sourceforge.vrapper.eclipse.pssp.exsd"/>
+   <extension-point id="net.sourceforge.vrapper.eclipse.extractor" name="Text Editor Extractor" schema="schema/net.sourceforge.vrapper.eclipse.extractor.exsd"/>
+   <extension-point id="net.sourceforge.vrapper.eclipse.psmp" name="Platform Specific Mode Provider" schema="schema/net.sourceforge.vrapper.eclipse.psmp.exsd"/>
+   <extension-point id="net.sourceforge.vrapper.eclipse.pstop" name="Platform Specific TextObject provider" schema="schema/net.sourceforge.vrapper.eclipse.pstop.exsd"/>
+  <extension
+       point="org.eclipse.ui.commands">
+    <category
+          description="Commands for Vrapper"
+          id="net.sourceforge.vrapper.eclipse.commands"
+          name="Vrapper">
+    </category>
+    <command
+          category="net.sourceforge.vrapper.eclipse.commands"
+          categoryId="net.sourceforge.vrapper.eclipse.commands"
+          defaultHandler="net.sourceforge.vrapper.eclipse.actions.VrapperToggleHandler"
+          description="Toggles Vrapper"
+          id="net.sourceforge.vrapper.eclipse.commands.toggle"
+          name="Toggle Vrapper">
+
+    </command>
+    </extension>
+
+
+    <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:edit?after=additions">
+         <command
+               commandId="net.sourceforge.vrapper.eclipse.commands.toggle"
+               icon="icons/icon.png"
+               mnemonic="%contributions.view.count.mnemonic"
+               style="toggle">
+         </command>
+      </menuContribution>
+       <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="net.sourceforge.vrapper.Vrapper">
+            <command
+                  commandId="net.sourceforge.vrapper.eclipse.commands.toggle"
+                  icon="icons/icon.png"
+                  style="toggle">
+            </command>
+            <separator
+                  name="additions"
+                  visible="false">
+            </separator>
+         </toolbar>
+      </menuContribution>
+
+    </extension>
+    <extension point="org.eclipse.ui.startup">
+		<startup class="net.sourceforge.vrapper.eclipse.activator.VrapperStartup"/>
+	</extension>
+
+
+   <extension point="org.eclipse.ui.bindings">
+      <key
+            sequence="ESC CTRL+C"
+            contextId="org.eclipse.jdt.ui.javaEditorScope"
+            commandId=""
+            schemeId="kg.totality.core.insert_mode"/>
+      <key
+            sequence="ESC CTRL+F"
+            contextId="org.eclipse.jdt.ui.javaEditorScope"
+            commandId=""
+            schemeId="kg.totality.core.insert_mode"/>
+	  <scheme
+          description="Vim&apos;s insert mode emulation"
+          id="kg.totality.core.insert_mode"
+          name="Vim&apos;s key bindings"
+          parentId="org.eclipse.ui.defaultAcceleratorConfiguration"/>
+     </extension>
+   <extension
+         point="net.sourceforge.vrapper.eclipse.pssp">
+      <keymap-provider
+            id="net.sourceforge.vrapper.eclipse.EclipseSpecificStateProvider"
+            name="AbstractTextEditor-specific Provider"
+            priority="0"
+            provider-class="net.sourceforge.vrapper.eclipse.keymap.EclipseSpecificStateProvider">
+      </keymap-provider>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="net.sourceforge.vrapper.eclipse.searchhighlight"
+            name="net.sourceforge.vrapper.eclipse.searchhighlight">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+	  <specification
+            annotationType="net.sourceforge.vrapper.eclipse.searchhighlight"
+            label="Vrapper Search"
+            textPreferenceKey="searchHighlightIndication"
+            textPreferenceValue="true"
+            highlightPreferenceKey="searchHighlightingHighlighting"
+            highlightPreferenceValue="true"
+            overviewRulerPreferenceKey="writeOccurrenceIndicationInOverviewRuler"
+            overviewRulerPreferenceValue="false"
+            verticalRulerPreferenceKey="writeOccurrenceIndicationInVerticalRuler"
+            verticalRulerPreferenceValue="false"
+            colorPreferenceKey="searchHighlightColor"
+            colorPreferenceValue="240,216,168"
+            presentationLayer="4"
+            textStylePreferenceKey="searchHighlightTextStyle"
+            textStylePreferenceValue="NONE">
+	  </specification>	  
+   </extension>
+</plugin>
+

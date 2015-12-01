@@ -1,0 +1,449 @@
+<h2>Configuration</h2>
+
+<h3>Settings</h3>
+<p>Vrapper's behaviour can be configured with command-line options.</p>
+<p>You can find the current value of a property with <code>:set &lt;property&gt;?</code></p>
+<p>You can also use <code>:setlocal</code> to make a setting only applicable to this file (Eclipse tab) instance.</p>
+
+<h3>Vim Settings</h3>
+<p>These settings can be found in Vim and we've done our best to match the Vim behavior as closely as possible.</p>
+<table class="commands">
+    <tr>
+        <th>Command</th>
+        <th>Short</th>
+        <th>Default</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>:set&nbsp;smartindent<br/>:set&nbsp;nosmartindent</td>
+        <td>:set&nbsp;si<br/>:set&nbsp;nosi</td>
+        <td>On</td>
+        <td>Whether to let the underlying editor indent lines or not.
+            Overrides the autoindent option.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;autoindent<br/>:set&nbsp;noautoindent</td>
+        <td>:set&nbsp;ai<br/>:set&nbsp;noai</td>
+        <td>Off</td>
+        <td>Whether to indent inserted lines or not. When active, lines
+            inserted with <code>o</code> or <code>O</code> will use the indent of
+            the line under the cursor. <code>cc</code> or <code>S</code> will keep the
+            whitespace at the beginning of a line.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;ignorecase<br/>:set&nbsp;noignorecase</td>
+        <td>:set&nbsp;ic<br/>:set&nbsp;noic</td>
+        <td>Off</td>
+        <td>Whether case should be ignored when searching.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;smartcase<br/>:set&nbsp;nosmartcase</td>
+        <td>:set&nbsp;scs<br/>:set&nbsp;noscs</td>
+        <td>Off</td>
+        <td>If set, searches will be case sensitive if the search string
+            includes uppercase characters. Only used if <code>ignorecase</code> is set.  
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;hlsearch<br/>:set&nbsp;nohlsearch</td>
+        <td>:set&nbsp;hls<br/>:set&nbsp;nohls</td>
+        <td>Off</td>
+        <td>If set, search results will be highlighted.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;incsearch<br/>:set&nbsp;noincsearch</td>
+        <td>:set&nbsp;is<br/>:set&nbsp;nois</td>
+        <td>Off</td>
+        <td>Incremental search.  If set, cursor will move to first closest match as you type.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;list<br/>:set&nbsp;nolist</td>
+        <td>none</td>
+        <td>Off</td>
+        <td>Show/Hide whitespace characters.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;number<br/>:set&nbsp;nonumber</td>
+        <td>:set&nbsp;nu<br/>:set&nbsp;nonu</td>
+        <td>Off</td>
+        <td>Show/Hide line numbers.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;cursorline<br/>:set&nbsp;nocursorline</td>
+        <td>:set&nbsp;cul<br/>:set&nbsp;nocul</td>
+        <td>Off</td>
+        <td>Show/Hide highlight on line with cursor.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;autochdir<br/>:set&nbsp;noautochdir</td>
+        <td>:set&nbsp;acd<br/>:set&nbsp;noacd</td>
+        <td>Off</td>
+        <td>Automatically change the current working directory to the parent of whatever file is currently active in Eclipse.
+        The current working directory is used by the <code>:e</code> command.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;scrolloff=&lt;N&gt;</td>
+        <td>:set&nbsp;so=&lt;N&gt;</td>
+        <td>scrolloff=0</td>
+        <td>When the cursor gets within <code>&lt;N&gt;</code> lines from the top or bottom of the view,
+            perform a scrolljump.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;scrolljump=&lt;N&gt;</td>
+        <td>:set&nbsp;sj=&lt;N&gt;</td>
+        <td>scrolljump=1</td>
+        <td>When the view needs to scroll, jump <code>&lt;N&gt;</code> lines at a time.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;textwidth=&lt;N&gt;</td>
+        <td>:set&nbsp;tw=&lt;N&gt;</td>
+        <td>textwidth=80</td>
+        <td>Only used by the <code>gq</code> command to format paragraphs.  Defines max line length when formatting.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;softtabstop=&lt;N&gt;</td>
+        <td>:set&nbsp;sts=&lt;N&gt;</td>
+        <td>softtabstop=0</td>
+        <td>When using spaces for tabs, set this to the number of spaces inserted for each <code>Tab</code> key press
+        and hitting <code>Backspace</code> in InsertMode will delete that many spaces as if you had deleted a tab character.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;tabstop=&lt;N&gt;</td>
+        <td>:set&nbsp;ts=&lt;N&gt;</td>
+        <td>tabstop=8</td>
+        <td>Used by <code>i_ctrl-t</code>, <code>i_ctrl-d</code>, and <code>:retab</code>.  Determines number of spaces to replace each tab character with
+        when <code>expandtab</code> is enabled.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;expandtab<br/>:set&nbsp;noexpandtab</td>
+        <td>:set&nbsp;et<br/>:set&nbsp;noet</td>
+        <td>On</td>
+        <td>Used by <code>i_ctrl-t</code>, <code>i_ctrl-d</code>, and <code>:retab</code>.  Determines whether <code>:retab</code> should replace all tabs with spaces (true)
+        or spaces with tabs (false).  Also determines whether <code>i_ctrl-t</code> and <code>i_ctrl-d</code> will replace <code>tabstop</code> spaces with a tab.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;shiftround<br/>:set&nbsp;noshiftround</td>
+        <td>:set&nbsp;sr<br/>:set&nbsp;nosr</td>
+        <td>Off</td>
+        <td>Round indent (<code>i_ctrl-t</code>, <code>i_ctrl-d</code>, <code>&gt;&gt;</code> and <code>&lt;&lt;</code>) to the nearest multiple of <code>shiftwidth</code>.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;shiftwidth=&lt;N&gt;</td>
+        <td>:set&nbsp;sw=&lt;N&gt;</td>
+        <td>shiftwidth=8</td>
+        <td>Used by <code>i_ctrl-t</code>, <code>i_ctrl-d</code>, <code>&gt;</code>, and <code>&lt;</code> commands.  Determines how many spaces are used for each indent added or removed.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;path=&lt;comma-delimited list of dirs&gt;</td>
+        <td>none</td>
+        <td>path=.</td>
+        <td>List of directories searched during the <code>:find &lt;filename&gt;</code> command.
+        Default directory of <code>.</code> represents directory of the current active file in Eclipse.
+        A path may end in <code>**</code> to represent "all sub-directories".<br/>For example, <code>:set path=src/main/java/**</code></td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;iskeyword=&lt;regex of word characters&gt;</td>
+        <td>:set isk=&lt;characters&gt;</td>
+        <td>iskeyword=a-zA-Z0-9_</td>
+        <td>Regex of character-classes which should be treated as word
+        characters. This will be interpreted as the regex <code>[&lt;iskeyword value&gt;]</code>.  All contiguous characters matching this regex will be treated
+        as one word for <code>w</code> and <code>*</code> commands.<br/>
+        This property can also be modified with <code>+=</code> and <code>-=</code> (e.g., <code>:set isk+=.</code>)</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;clipboard=&lt;name&gt;</td>
+        <td>none</td>
+        <td>clipboard=autoselect</td>
+        <td><code>:set&nbsp;clipboard=unnamed</code> will use the system clipboard (also known as <code>"+</code>) for all <code>y</code> and <code>p</code> operations.<br/>
+            <code>:set&nbsp;clipboard=autoselect</code> will use the standard <code>"*</code> clipboard.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;modifiable<br/>:set&nbsp;nomodifiable</td>
+        <td>:set ma<br/>:set noma</td>
+        <td>On</td>
+        <td>
+            (Editor local) Whether the current file can be modified. If unset, Vrapper will print the following error in the statusline: <code>Cannot modify contents, 'modifiable' is off!</code><br/>
+            Note that certain editors are completely read-only (e.g. Java class viewers), for these editors the <code>'modifiable'</code> setting has no effect. Vrapper will always print the following error when trying to modify such a file: <code>Cannot modify contents, file is not editable!</code>. If you want to edit such a file, try copying the contents to a new file and edit that file instead.
+        </td>
+    </tr>
+</table>
+
+
+<h3>Vrapper Settings</h3>
+<p>These settings are specific to Vrapper (not found in Vim).  They either help
+with managing Eclipse behavior or they were feature requests from our community
+which we implemented.</p>
+<table class="commands">
+    <tr>
+        <th>Command</th>
+        <th>Short</th>
+        <th>Default</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>:set&nbsp;globalregisters<br/>:set&nbsp;noglobalregisters</td>
+        <td>none</td>
+        <td>On</td>
+        <td>Whether registers (including the last search, last character
+            search and last edit) should be shared across all editors of
+            the workbench or local to the editor.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;atomicinsert<br/>:set&nbsp;noatomicinsert</td>
+        <td>:set&nbsp;ati<br/>:set&nbsp;noati</td>
+        <td>On</td>
+        <td>Whether inserts should be handled as atomic operation.
+            This causes problems sometimes, so it is deactivatable.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;regexsearch<br/>:set&nbsp;noregexsearch</td>
+        <td>:set&nbsp;rxs<br/>:set&nbsp;norxs</td>
+        <td>On</td>
+        <td>If set, keywords will be handled as (Eclipse style) regular expressions.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;sanecw<br/>:set&nbsp;nosanecw</td>
+        <td>none</td>
+        <td>Off</td>
+        <td>If set, <code>cw</code> deletes the same as <code>dw</code> (i.e. whitespace before the next word is not spared).</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;saney<br/>:set&nbsp;nosaney</td>
+        <td>none</td>
+        <td>Off</td>
+        <td>If set, <code>Y</code> will yank from the cursor position to the end of the line instead of yanking the whole line.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;visualmouse<br/>:set&nbsp;novisualmouse</td>
+        <td>none</td>
+        <td>On</td>
+        <td>If set, selecting text with the mouse will automatically move into Visual Mode.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;gvimpath=&lt;path to gvim executable&gt;</td>
+        <td>none</td>
+        <td>gvimpath=/usr/bin/gvim</td>
+        <td>Defines path to gvim used with <code>:vim</code> command.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;gvimargs=&lt;arguments for gvim executable&gt;</td>
+        <td>none</td>
+        <td>gvimargs=+{line} -c normal zv{col}| -c set nobackup -f -n {file}</td>
+        <td>Defines arguments to send to gvim when using :vim command.  Supports
+        placeholder strings <code>{line}</code>, <code>{col}</code>, and <code>{file}</code> which define current
+        cursor position and filename in Eclipse.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;cleanindent<br/>:set&nbsp;nocleanindent</td>
+        <td>none</td>
+        <td>On</td>
+        <td>If you create a new line with <code>o</code> while <code>autoindent</code> is enabled, that new line will be indented.
+        If you then exit insert mode without entering any text, that auto-indent is typically removed
+        (leaving only a blank line).  Disable <code>cleanindent</code> if you <i>don't</i> want it to cleanup that auto-indent.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;exitlinkmode<br/>:set&nbsp;noexitlinkmode</td>
+        <td>:set&nbsp;elm<br/>:set&nbsp;noelm</td>
+        <td>On</td>
+        <td>If set, Vrapper will return to NormalMode anytime Eclipse exits its "Link Mode".
+        Eclipse moves into Link Mode when prompting you to fill out arguments.  This typically
+        means Eclipse has drawn a box around some words and it wants you to fill them in.
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;contentassistmode<br/>:set&nbsp;nocontentassistmode</td>
+        <td>:set&nbsp;cam<br/>:set&nbsp;nocam</td>
+        <td>Off</td>
+        <td>Enables <code>c-n</code> and <code>c-p</code> to move selection up and down in the content-assist dropdown.<br/>
+        Use <code>camap</code> to map other keys to <code>c-n</code> or <code>c-p</code>.</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;startnormalmode<br/>:set&nbsp;nostartnormalmode</td>
+        <td>:set&nbsp;snm<br/>:set&nbsp;nosnm</td>
+        <td>Off</td>
+        <td>When enabled, always start in NormalMode after changing tabs.  For
+        example, if you go into InsertMode, change tabs to another file, then
+        change tabs back, you will be in NormalMode (exit InsertMode).</td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;imdisable<br/>:set&nbsp;noimdisable</td>
+        <td>none</td>
+        <td>Off</td>
+        <td>If set, exiting Insert Mode will automatically disable the Input Method (useful on Japanese keyboards).
+        </td>
+    </tr>
+    <tr>
+        <td>:set&nbsp;syncmodifiable<br/>:set&nbsp;nosyncmodifiable</td>
+        <td>:set syncma<br/>:set nosyncma</td>
+        <td>On</td>
+        <td>If set, Vrapper syncs the editor's "read-only" flag with its own 'modifiable' flag. When unset, a read-only file can be edited but Eclipse will ask what if you want to save to another file.<br/>
+            This is a global setting, and any opened editor must be re-opened before this setting takes effect.
+        </td>
+    </tr>
+</table>
+
+
+<a name="remapping"/>
+<h3>Remapping Keys</h3>
+<p>There are a lot of commands for defining different key mappings, but
+   essentially four actions: create a mapping which is searched again for
+   other mappings, create one which is not mapped again, clear a mapping,
+   and clear all mappings. Each of these four actions can be done either for
+   normal and visual mode together or for one of normal, visual, or insert
+   mode alone. The commands are:</p>
+   <table class="commands" style="margin-bottom:1em">
+       <tr>
+           <th>Command</th>
+           <th>Description</th>
+        </tr>
+       <tr>
+           <td>:map&nbsp;&lt;lhs&gt;&lt;rhs&gt;</td>
+           <td>Maps &lt;lhs&gt; to &lt;rhs&gt;. Searches &lt;rhs&gt; for
+               more mappings.</td>
+       </tr>
+       <tr>
+           <td>:noremap&nbsp;&lt;lhs&gt;&nbsp;&lt;rhs&gt;<br/>
+               :no&nbsp;&lt;lhs&gt;&nbsp;&lt;rhs&gt;</td>
+           <td>Maps &lt;lhs&gt; to &lt;rhs&gt;. Ignores mappings occuring in
+               &lt;rhs&gt;</td>
+       </tr>
+       <tr>
+           <td>:unmap&nbsp;&lt;mapping&gt;
+               :unm&nbsp;&lt;mapping&gt;</td>
+           <td>Removes the mapping for &lt;mapping&gt;.</td>
+       </tr>
+       <tr>
+           <td>:mapclear<br/>
+               :mapc</td>
+           <td>Removes all mappings of the corresponding key map.</td>
+       </tr>
+   </table>
+   <p>
+   The commands above all manipulate the key maps of normal and visual mode
+   respectively. The following commands are used for the individual modes:
+   </p>
+   <table class="commands" style="margin-bottom:1em">
+       <tr>
+           <td>
+               nmap<br/>
+               nm<br/>
+               imap<br/>
+               im<br/>
+               omap<br/>
+               om<br/>
+               vmap<br/>
+               vm<br/>
+           </td>
+           <td>
+               nnoremap<br/>
+               nn<br/>
+               inoremap<br/>
+               ino<br/>
+               onoremap<br/>
+               ono<br/>
+               vnoremap<br/>
+               vn<br/>
+           </td>
+           <td>
+               nunmap<br/>
+               nun<br/>
+               iunmap<br/>
+               iu<br/>
+               ounmap<br/>
+               ou<br/>
+               vunmap<br/>
+               vu<br/>
+               unmap<br/>
+               unm<br/>
+           </td>
+           <td>
+               nmapclear<br/>
+               nmapc<br/>
+               imapclear<br/>
+               imapc<br/>
+               omapclear<br/>
+               omapc<br/>
+               vmapclear<br/>
+               vmapc<br/>
+               mapclear<br/>
+               mapc<br/>
+           </td>
+       </tr>
+   </table>
+<p>It is possible to map multiple keys to multiple other keys, e.g.
+   <code>:ino jj &lt;ESC&gt;</code> or <code>:nn cw ce</code>.</p>
+   <p>Special characters can be mapped by using the notation <code>&lt;NAME&gt;</code>.
+   Control characters are mapped by using <code>&lt;C-x&gt;</code>, where x is a character from A-Z. Similarly, Alt (meta) characters
+   are mapped by using <code>&lt;A-x&gt;</code> or <code>&lt;M-x&gt;</code>. Shift characters are mapped by using
+   <code>&lt;S-x&gt;</code> but only the special keys are supported.
+   Here is a list of special character names:</p>
+   <ul class="commands">
+       <li>F1 to F12</li>
+       <li>GT</li>
+       <li>LT</li>
+       <li>LEFT*</li>
+       <li>RIGHT*</li>
+       <li>UP*</li>
+       <li>DOWN*</li>
+       <li>ENTER</li>
+       <li>RETURN*</li>
+       <li>ESC*</li>
+       <li>HOME</li>
+       <li>END</li>
+       <li>PAGE_UP</li>
+       <li>PAGE_DOWN</li>
+       <li>INSERT</li>
+       <li>DELETE</li>
+       <li>BACKSPACE*</li>
+       <li>SPACE</li>
+       <li>BAR</li>
+   </ul>
+   <dl>
+       <dt>* InsertMode can only understand the special character names marked with an asterisk.
+           For example, <code>:inoremap &lt;C-E&gt; &lt;DELETE&gt;</code> won't currently do anything.</dt>
+   </dl>
+
+
+<h3>Collisions between Vrapper and Eclipse bindings</h3>
+<p>If a key combination is already mapped by Eclipse (e.g. <code>Ctrl-P</code> on Windows and
+Linux based systems is mapped to print), Vrapper will not receive the keystroke,
+so mapping it to some Vrapper action will not work.</p>
+<p>In Eclipse, go to the Preferences window, then General -&gt; Keys. Find the
+binding causing the collision. Select it, then click the "Unbind Command"
+button. This should remove the binding in the "Binding" column. Click "Apply".
+Vrapper should now receive the keystrokes and your mapping should work
+correctly.</p>
+<h3>Configuration File</h3>
+<p>The options described above only change the behaviour of the editor in which they are set.
+To change the default configuration, a file is used. When a new editor is opened, the plugin checks for a file called <b><code>.vrapperrc</code></b>
+in the user's home directory (or <b><code>_vrapperrc</code></b> to make it easier for Windows people). If found, the commands in the file are executed. You may use any
+configuration command in this file. As with <code>.vimrc</code> files, the leading <code>:</code> is omitted in the configuration file.</p>
+<p>This is an example of the contents of a configuration file:</p>
+<pre>
+noremap d h
+noremap h j
+noremap t k
+noremap n l
+noremap e d
+noremap E D
+noremap l n
+noremap L N
+noremap s :
+noremap ` ^
+noremap k e
+noremap K E
+set autoindent
+set ignorecase
+set smartcase
+</pre>
+
